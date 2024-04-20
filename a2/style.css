@@ -1,0 +1,70 @@
+body {
+background-image:url("https://img.freepik.com/free-photo/plain-smooth-green-paper-background_53876-102688.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1713484800&semt=ais");
+}
+
+#title {
+position:fixed;
+top:0px;
+left:0px;
+padding:10px;
+margin: auto;
+width:100%;
+background-color:#62C2CE;
+text-align:center;
+z-index:10;
+font-family: 'JustLettersMedium';
+font-weight: normal;
+font-style: normal;
+font-size:36px;
+}
+
+img {
+margin-left: 5px;
+margin-top:10px;
+}
+
+#container {
+margin-top:25%;
+margin-left: 17%;
+margin-right: auto;
+margin-bottom:auto;
+ width: 80%;
+
+}
+
+.row{
+position:relative;
+margin-left:10%;
+margin-right:10%;
+}
+
+.white{
+border: 1px solid black;
+width: 10%;
+height: 60px;
+background-color:white;
+float:left;
+}
+
+.black{
+border: 1px solid black;
+width: 10%;
+height: 60px;
+background-color:#787878;
+float:left;
+}
+
+.clear{
+clear:both;
+}
+
+ 
+
+#footer {
+border: solid 1px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
