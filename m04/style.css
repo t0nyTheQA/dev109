@@ -1,1 +1,87 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;
+     
+}
+
+ h1{
+      font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;; 
+}
+
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/04/47/65/06/360_F_447650650_AoPQca2b2a9zK3CU0SmCqBxP5fEA1fYr.jpg");
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content {
+    overflow: auto;
+}
+
+#nav, #feature, #footer {
+        margin: 1%;
+}
+
+.column1, .column2, .column3 {
+        width: 31.3%;
+        float: left;
+        margin: 1%;
+}
+
+.column3 {
+        margin-right: 0%;
+}
+
+li {
+        display: inline;
+        padding: 0.5em;
+}
+
+#nav, #footer {
+        background-color: #566573;
+        padding: 0.5em 0;
+}
+
+#feature, .article {
+        
+        height: 10em;
+        margin-bottom: 1em;
+        
+}
+
+#feature {
+        background-color: #145A32;
+        background-image: url("https://content.mycutegraphics.com/graphics/icecream/ice-cream-cone-sprinkles-on-ice-cream-clip-art.png");
+        background-size:contain;
+        background-position: right;
+        background-repeat:no-repeat;
+
+}
+
+
+
+
+#nav {
+    background-color: #DAF7A6; /* Menu color */
+}
+
+
+.column1 {
+    background-color: #FF5733; /* Column One color */
+}
+
+.column2 {
+    background-color: #C70039; /* Column Two color */
+}
+
+.column3 {
+    background-color: #900C3F; /* Column Three color */
+}
+
+#footer {
+    background-color: #581845; /* Footer color */
+}
 
