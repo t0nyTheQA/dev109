@@ -10,11 +10,11 @@ if (table >= 0 && table <= 10) {
 //var operator = 'addition'; 
 
     //create the multiplacation table using for loop to go thru 10 times
-    msg += '<table>';
+  
     for (var i = 1; i <= 10; i++) {
          msg += i + ' x ' + table + ' = ' + (i * table) + '<br>';
     }
-    msg += '</table>';
+    
 
     var el = document.getElementById('blackboard');
     el.innerHTML = msg;
