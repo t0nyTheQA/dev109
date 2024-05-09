@@ -14,7 +14,7 @@ function upDiamond(pHeight, pColorEven, pColorOdd, pSymbol) {
         }
         for (var k = 0; k < 2 * i; k++) { 
             var color;
-            if (k % 2 === 0) {
+            if (k % 2) {
                 color = pColorEven;
             } else {
                 color = pColorOdd;
@@ -36,7 +36,7 @@ function downDiamond(pHeight, pColorEven, pColorOdd, pSymbol) {
         }
         for (var k = (pHeight - i) * 2; k > 0; k--) { 
             var color;
-            if (k % 2 === 0) {
+            if (k % 2) {
                 color = pColorEven;
             } else {
                 color = pColorOdd;
