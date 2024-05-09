@@ -1,1 +1,51 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="description" content="Week 6 - BC - Rhombus">
+<meta charset="utf-8">
+<title>Anton Toropov</title>
+  </head>
 
+  <body>
+<label>What is the size of Rhombus?</label><br>
+<input type="text" id="rHeight" value="5" size="5">
+<br>
+<label>Choose color for Even position</label><br>
+<select id="colorEven">
+<option value="#0000FF">Blue</option>
+<option value="#000000">Black</option>
+<option value="#FF0000">Red</option>
+</select><br>
+
+<label>Choose color for Odd position</label><br>
+<select id="colorOdd">
+<option value="#40E0D0">Turquoise</option>
+<option value="#FFA500">Orange</option>
+<option value="#660099">Purple</option>
+</select>
+<br>
+
+<label>Choose symbol for Rhombus</label>
+<select id="symbol">
+<option value="*">*</option>
+<option value="$">$</option>
+<option value="@">@</option>
+</select>
+<br>
+
+<button onclick="createRhombus(document.getElementById('rHeight').value,
+document.getElementById('colorEven').value,
+document.getElementById('colorOdd').value,
+document.getElementById('symbol').value);">Display Rhombus</button>
+<div id="diamond">Rhombus</div>
+
+
+<!-- CALL YOUR JAVASCRIPT FILE IF YOU ARE USING A HOSTING ENVIRONMENT -->
+
+<script src="https://t0nytheqa.github.io/dev109/a3/script.js"></script>
+
+
+
+  </body>
+</html>
