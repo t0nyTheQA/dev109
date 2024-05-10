@@ -1,4 +1,4 @@
-
+/* Body */
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ body {
     background-image: url('https://static.vecteezy.com/system/resources/previews/008/311/935/non_2x/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg');
 }
 
-
+/* Navigation */
 nav {
     background-color: #333;
     padding: 10px 0;
@@ -26,4 +26,22 @@ nav ul li {
 
 nav ul li a {
     color: white;
+
 }
+.validated-screenshot img {
+    width: 500px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.artifactsList li {
+            display: inline-block;
+            margin: 20px;
+            vertical-align: top; 
+        }
+.artifactsList img {
+            width: 150px; 
+            height: auto; 
+            display: block; 
+            margin-bottom: auto; 
+        }
