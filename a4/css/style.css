@@ -18,7 +18,7 @@ input[type="email"],
 input[type="password"],
 select,
 textarea {
-    width: 50px
+    width: 50px;
     padding: 8px;
     margin-top: 5px;
     box-sizing: border-box;
