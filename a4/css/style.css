@@ -48,3 +48,7 @@ textarea {
     color: red;
     font-weight: bold;
 }
+
+.thank-you-message {
+    font-size: 48px;
+}
