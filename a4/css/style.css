@@ -1,1 +1,50 @@
 
+body {
+    background-image: url('https://img.freepik.com/free-vector/geometric-diagonal-shapes-white-gray-background_1017-25102.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 50px
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
+
+
+
+
+.warning-message {
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+#errorMessages p {
+    color: red;
+    font-weight: bold;
+}
