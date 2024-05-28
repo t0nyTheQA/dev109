@@ -216,18 +216,28 @@ function validateState() {
 function validateCountryAndZip() {
     var country = document.getElementById("Country").value;
     var zipcode = document.getElementById("ZipCode").value;
-    var validCountryAndZip = false;
-    var errorMessages = "";
+    var validCountryAndZip = true; 
+    var countryErrorMessage = "";
+    var zipcodeErrorMessage = "";
 
+    // Validate country
     if (country === "") {
-        errorMessages += "<p>The country is required</p>";
-    } else if (country === "USA" && (zipcode === "" || zipcode.length !== 5 || isNaN(zipcode))) {
-        errorMessages += "<p>Invalid zip code (must be 5 digits for USA)</p>";
-    } else {
-        validCountryAndZip = true;
+        countryErrorMessage = "<p>The country is required</p>";
+        validCountryAndZip = false;
+    }
+   
+
+    // validate if country is USA and zip
+    if (country === "USA") {
+        if (zipcode.length !== 5 || isNaN(zipcode)) {
+            zipcodeErrorMessage += "<p>Invalid zip code (must be 5 digits for USA)</p>";
+            validCountryAndZip = false;
+        }
     }
 
-    document.getElementById("countryError").innerHTML = errorMessages;
-    document.getElementById("zipcodeError").innerHTML = errorMessages;
+    // Display error messages
+    document.getElementById("countryError").innerHTML = countryErrorMessage;
+    document.getElementById("zipcodeError").innerHTML = zipcodeErrorMessage;
+
     return validCountryAndZip;
 }
