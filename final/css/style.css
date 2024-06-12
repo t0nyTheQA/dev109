@@ -1,0 +1,59 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/008/311/935/non_2x/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg');
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+
+}
+.validated-screenshot img {
+    width: 500px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+
+}
+ .validated-screenshot {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.validated-container {
+     display: flex;
+     justify-content: space-between;
+}
+
+.validated-column {
+     width: 45%;
+}
+
+.artifactsList li {
+            display: inline-block;
+            margin: 20px;
+            vertical-align: top; 
+        }
+.artifactsList img {
+            width: 150px; 
+            height: auto; 
+            display: block; 
+            margin-bottom: auto; 
+        }
