@@ -14,6 +14,11 @@ img {
     display: block;
     margin: 20px auto; 
 }
+.mediacontent {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; /* Adjust the max-width as needed */
+}
 /* Navigation */
 nav {
     background-color: #333;
