@@ -6,6 +6,10 @@ body {
     background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower.png');
 }
 
+audio {
+    display: block;
+    margin: 20px auto; /* Center the player horizontally */
+}
 /* Navigation */
 nav {
     background-color: #333;
