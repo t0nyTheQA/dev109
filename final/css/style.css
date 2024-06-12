@@ -82,8 +82,8 @@ p {
 }
 
 .module img {
-    width: 200px;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px;
+    width: 150px; 
+    height: auto; 
+    display: block; 
+    margin-bottom: auto; 
 }
