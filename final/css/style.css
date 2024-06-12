@@ -49,14 +49,19 @@ nav ul li a {
     width: 45%;
 }
 
-/* Artifacts List */
-.artifactsList li {
+/* Artifacts List and Module List */
+.artifactsList, .moduleList {
+    padding: 0;
+}
+
+.artifactsList li, .moduleList li {
     display: inline-block;
     margin: 20px;
     vertical-align: top; 
+    text-align: center;
 }
 
-.artifactsList img {
+.artifactsList img, .moduleList img {
     width: 150px; 
     height: auto; 
     display: block; 
@@ -73,18 +78,4 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
     line-height: 1.8;
-}
-
-/* Module */
-.moduleList li {
-     display: inline-block;
-    margin: 20px;
-    vertical-align: top; 
-}
-
-.module img {
-    width: 150px; 
-    height: auto; 
-    display: block; 
-    margin-bottom: auto; 
 }
