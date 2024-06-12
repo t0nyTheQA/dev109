@@ -74,7 +74,9 @@ nav ul li a {
     height: 100px; 
     display: block; 
     margin-bottom: auto; 
+    margin: 0 auto;
 }
+
 
 /* Para style */
 p {
