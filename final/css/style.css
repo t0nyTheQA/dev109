@@ -76,9 +76,10 @@ p {
 }
 
 /* Module */
-.module {
-    text-align: center;
+.moduleList li {
+     display: inline-block;
     margin: 20px;
+    vertical-align: top; 
 }
 
 .module img {
