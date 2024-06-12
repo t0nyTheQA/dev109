@@ -63,7 +63,7 @@ nav ul li a {
 
 .artifactsList img, .moduleList img {
     width: 150px; 
-    height: auto; 
+    height: 100px; 
     display: block; 
     margin-bottom: auto; 
 }
