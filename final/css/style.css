@@ -74,3 +74,16 @@ p {
     font-size: 1.1em;
     line-height: 1.8;
 }
+
+/* Module */
+.module {
+    text-align: center;
+    margin: 20px;
+}
+
+.module img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
