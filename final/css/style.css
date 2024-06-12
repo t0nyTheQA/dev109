@@ -26,34 +26,51 @@ nav ul li {
 
 nav ul li a {
     color: white;
-
 }
+
+/* Validated Screenshot */
 .validated-screenshot img {
     width: 500px; /* Adjust this value as needed */
     height: auto; /* Maintain aspect ratio */
-
 }
- .validated-screenshot {
+
+.validated-screenshot {
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* Validated Container */
 .validated-container {
-     display: flex;
-     justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .validated-column {
-     width: 45%;
+    width: 45%;
 }
 
+/* Artifacts List */
 .artifactsList li {
-            display: inline-block;
-            margin: 20px;
-            vertical-align: top; 
-        }
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top; 
+}
+
 .artifactsList img {
-            width: 150px; 
-            height: auto; 
-            display: block; 
-            margin-bottom: auto; 
-        }
+    width: 150px; 
+    height: auto; 
+    display: block; 
+    margin-bottom: auto; 
+}
+
+/* Para style */
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    line-height: 1.8;
+}
